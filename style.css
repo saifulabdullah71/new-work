@@ -1,0 +1,46 @@
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.header-container{
+    background-color: #F5EBD7;
+    background-image: url("assets/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-item{
+    display: flex;
+    align-items: center;
+}
+li{
+    padding: 16px;
+    list-style-type: none;
+}
+.btn-primary{
+    background-color:#FF4500;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    padding: 16px 32px;
+}
+.Logo{
+    font-size: 48px;
+}
+.banner-container{
+    display: flex;
+    align-items: center;
+    max-width:1000px;
+    margin: 0 auto;
+}
